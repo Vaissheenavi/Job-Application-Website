@@ -1,0 +1,185 @@
+/*
+filename: P.Vaissheenavi
+author: P.Vaissheenavi
+created: 21/08/2021
+last modified: 21/08/2021
+description: index.html
+*/
+
+
+/* Image is from https://crello.com/unlimited/stock-photos/179833578/stock-photo-texture-light-purple-color-paper/ */
+
+body {background-image: url("images/purple.png"); }
+
+/* To make the website to have margin on left and right */
+
+* {margin-left:20px; margin-right: 20px;}
+
+
+/* To make the text in the group of id to be aligned in the center  */
+
+#grpic,#mymenu {text-align: center; }
+
+
+/* To format how h1 font looks across all pages  */
+
+h1 {font-variant:normal; font-family: serif, arial; font-size:40px;  text-align: center;}
+h2 {font-weight: normal; text-align: center;}
+
+/* To appoint a background color for the group of id */
+
+#home, #jobs, #application, #about, #enhancements, #manager, #phpenhancement {background-color:#FA8072}
+
+
+/* To make the bullet point square in shape */
+
+#ulst,#ulst1,#ulst2,#ulst3 {list-style-type:square;}
+
+
+
+/* To format the horizontal line */
+
+hr {width: 100%; height: 1px; margin-left: auto; margin-right: auto;}
+
+
+/* To format the boxes that contains hyperlinks */ 
+
+a:link , a:visited {
+  border: 2px solid black;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* To format the borders of the jobs */
+
+#gamesProgrammer{
+  width: 96%;
+  border: 5px solid red;
+  padding: 2px;
+  margin: 10px;
+}
+
+
+#itProjectManager{
+  width: 96%;
+  border: 5px solid green;
+  padding: 2px;
+  margin: 10px;
+}
+
+#gamesSoftwareEngineer{
+  width: 96%;
+  border: 5px solid blue;
+  padding: 2px;
+  margin: 10px;
+}
+
+
+#hardwareTechnician{
+  width: 96%;
+  border: 5px solid purple;
+  padding: 2px;
+  margin: 10px;
+}
+
+
+/* To format the table */
+
+table,th,td {border: 1px solid black;}
+
+/* To format the information at the side of the website */
+
+aside{
+border: 4px inset purple;
+border-radius:14px;
+margin: 1em;
+padding:1em;
+width:25%;
+float:right;
+box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* To format the footer */
+
+footer{text-align: center; font-size:small;}
+
+/* styling definition list */
+dl {
+    border: 3px double #0c00cc;
+    padding: 2em;
+  }
+  dt {
+    clear: left;
+    float: left;
+    width: 40%;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  dt::after {
+    content: " :"; 
+  }
+
+  dd {
+    width: 40%;
+	margin-left: 42%;
+  }
+
+/* To format the table which is the timetable */
+
+table, .timetable{text-align:center; margin-left:auto;margin-right:auto;}
+
+
+/* To format the figure element for my image */
+
+figure {float:right;
+        border-style:solid;
+        padding: 0.5em;
+        border-width: thin;}
+
+/* To format my image and to put it beside the definition list */
+
+#myimage{margin-top:-420px}
+
+/* To insert different background colours for the table rows */
+
+#Row1 {background-color:#ADD8E6}
+#Rows {background-color:#d4f2db}
+
+/* To make the logo animated */
+
+.gamelogo{width:300px;
+   cursor:pointer;
+   animation:movedown 1s linear 1;
+   animation-delay:1s;
+   
+}
+
+
+@keyframes movedown {
+    0%{
+        Transform: translateY(-100px);
+    }
+    100%{
+        Transform: translateY(0);
+    }
+}
+
+.container {
+font-family: arial;
+font-weight:bold;
+color:#000000;
+border: 1px solid #000000;
+width: 340px;
+padding: 10px;
+text-align:center;
+-webkit-border-radius:10px;
+-moz-order-radius:10px;
+border-radius:10px;
+
+
+}
